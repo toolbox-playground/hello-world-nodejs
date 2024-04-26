@@ -1,8 +1,6 @@
 # ola-mundo-nodejs
 Código básico para endpoint em nodejs. Código usado somente para fins de exemplos.
 
-# docker-beginner
-
 Estrutura de pastas:
 ```bash
 ├── app                 # app folder
