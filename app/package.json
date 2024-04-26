@@ -1,0 +1,23 @@
+{
+  "name": "ola-mundo-nodejs",
+  "version": "1.0.0",
+  "description": "Código básico para endpoint em nodejs. Código usado somente para fins de exemplos.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app/injdex.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toolbox-playground/ola-mundo-nodejs.git"
+  },
+  "author": "@toolbox-devops",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toolbox-playground/ola-mundo-nodejs/issues"
+  },
+  "homepage": "https://github.com/toolbox-playground/ola-mundo-nodejs#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
