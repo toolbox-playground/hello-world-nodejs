@@ -4,19 +4,19 @@
   "description": "Código básico para endpoint em nodejs. Código usado somente para fins de exemplos.",
   "main": "index.js",
   "scripts": {
-    "start": "node app/injdex.js",
+    "start": "node app/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/toolbox-playground/ola-mundo-nodejs.git"
+    "url": "git+https://github.com/toolbox-playground/hello-world-nodejs.git"
   },
   "author": "@toolbox-devops",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/toolbox-playground/ola-mundo-nodejs/issues"
+    "url": "https://github.com/toolbox-playground/hello-world-nodejs/issues"
   },
-  "homepage": "https://github.com/toolbox-playground/ola-mundo-nodejs#readme",
+  "homepage": "https://github.com/toolbox-playground/hello-world-nodejs#readme",
   "dependencies": {
     "express": "^4.19.2"
   }
