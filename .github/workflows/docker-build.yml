@@ -43,7 +43,7 @@ jobs:
                 username: toolboxdevopsplayground
                 password: ${{ secrets.DOCKER_TOKEN }}
 
-            - name: Build e Push no Azure Container Registry
+            - name: Build of docker image
               run: |
-                VERSION=$(jq -r '.version' package.json)
+                VERSION=$(jq -r '.version' app/package.json)
                 docker build -t toolboxdevopsplayground/hello-world-nodejs:$VERSION .
