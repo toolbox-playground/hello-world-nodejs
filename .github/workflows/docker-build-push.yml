@@ -44,5 +44,5 @@ jobs:
             - name: Build of docker image
               run: |
                 VERSION=$(jq -r '.version' app/package.json)
-                docker build -t toolboxdevopsplayground/hello-world-nodejs:$VERSION .
-                docker push toolboxdevopsplayground/hello-world-nodejs:$VERSION
+                docker build -t toolboxdevopsplayground/hello-world-nodejs:latest .
+                docker push toolboxdevopsplayground/hello-world-nodejs:latest
