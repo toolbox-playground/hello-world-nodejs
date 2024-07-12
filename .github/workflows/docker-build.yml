@@ -28,7 +28,8 @@ jobs:
             - name: Install and Build
               run: |
                 npm install
-
+              working-directory: ./app/
+            
             - name: Configuring Git Account
               run: |
                 git config --global user.email "pipelines@toolboxdevops.cloud"
